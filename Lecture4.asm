@@ -10,6 +10,7 @@ BufferSize db 30
 ActualSize db ?
 BufferData db 30 dup('$')
 test dw 9
+test2 dw 8
 .code         
 main proc far             
 mov ax,@data
